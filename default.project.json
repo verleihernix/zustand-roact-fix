@@ -1,0 +1,9 @@
+{
+	"name": "zustand-react-fix",
+	"tree": {
+		"$className": "Folder",
+		"@verleihnix": {
+            "$path": "out"
+        }
+	}
+}
