@@ -1,0 +1,34 @@
+{
+  "name": "@rbxts/zustand-roact-fix",
+  "version": "1.0.0",
+  "description": "Fixed version of @rbxts/zustand",
+  "main": "out/init.lua",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "verleihernix",
+  "license": "ISC",
+  "type": "commonjs",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.963",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@rbxts/object-utils": "^1.0.4",
+    "@rbxts/react": "^17.3.13-ts.1",
+    "@rbxts/react-roblox": "^17.3.13-ts.1"
+  }
+}
