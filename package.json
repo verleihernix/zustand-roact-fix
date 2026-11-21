@@ -1,5 +1,5 @@
 {
-  "name": "rbxts-zustand-roact-fix",
+  "name": "@rbxts/zustand-roact-fix",
   "version": "1.0.0",
   "description": "Fixed version of @rbxts/zustand",
   "main": "out/init.lua",
